@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--This website was created by Megan Bawden-->
+<html lang = "en">
+<head>
+
+	<title>Cheese</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png"> 
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png"> 
+
+  
+    <meta name="description" content="This sample shows how to load the map with a custom map style." />
+    <meta name="keywords" content="Microsoft maps, map, gis, API, SDK, Bing, Bing Maps" />
+    <meta name="author" content="Microsoft Bing Maps" />
+    <meta name="screenshot" content="screenshot.jpg" />
+
+	 	 
+</head>
+
+	<body>
+	
+   
+  
+	<div id = "container">
+		 <!-- Use the header area for the website name or logo --> 
+		<header>
+		<a href = "index.html"><img src= "images/lilbrie.png" alt= "stars logo"></a>
+		</header>
+		<!-- Use the nav area to add hyperlinks to other pages within the website --> 	
+		<nav>
+			<ul>
+			<li><a href="index.html">Home</a></li> 
+				<li><a href="about.html">About</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="club.html">Cheese Club</a></li>
+				<li><div id = "signup"><a href="sign.html">Sign In</a></div></li>
+				
+				
+			</ul> 
+		</nav>	
+		<!--hero image
+		<div id = "hero" class="tablet-desktop">
+			<img src="images/hearts.png"> 
+		</div>
+		-->
+		<!-- Use the main area to add main content of the webpage--> 	
+		<main>
+		
+		
+		
+	   
+		<h1>Get Cheese Monthly!</h1>
+			<p>Introducing our exclusive Cheese of the Month Club – a gourmet experience for cheese enthusiasts! Each month, embark on a culinary journey as we curate a selection of artisanal cheeses from around the world, 
+			delivered right to your doorstep. Immerse yourself in the rich and diverse world of cheese, discovering unique flavors, textures, and aromas.</p>
+		
+
+			<div id = "abc">
+		
+		<div class="grid-container">
+		<!--
+			<div class="mobile">
+				<div class = "grid-item">
+				<h3>🧀 What to Expect:</h3>
+				<p>Handpicked Selection: Our expert cheesemongers carefully select a variety of premium cheeses, ranging from creamy Bries to aged Goudas and everything in between.</p>
+				<p>Global Flavors: Explore the distinct tastes of cheeses crafted in renowned cheese-making regions, offering a passport to the world's finest dairy traditions.</p>
+				<p>Pairing Perfection: Alongside each cheese, receive curated pairing suggestions to elevate your tasting experience. From wines and crackers to fruits and nuts, we've got your perfect pairings covered.</p>
+				</div>
+			</div>
+			
+			<div class="tablet-desktop">
+			-->
+			
+			<div class = "item1">
+				<h3>🧀 What to Expect:</h3>
+				<p>Handpicked Selection: Our expert cheesemongers carefully select a variety of premium cheeses, ranging from creamy Bries to aged Goudas and everything in between.</p>
+				<p>Global Flavors: Explore the distinct tastes of cheeses crafted in renowned cheese-making regions, offering a passport to the world's finest dairy traditions.</p>
+				<p>Pairing Perfection: Alongside each cheese, receive curated pairing suggestions to elevate your tasting experience. From wines and crackers to fruits and nuts, we've got your perfect pairings covered.</p>
+			</div>
+			
+
+			
+			<div class="grid-item">
+
+				<h3>📅 Monthly Deliveries:</h3>
+				<p>Conveniently receive a new cheese selection each month, ensuring a continuous discovery of exquisite flavors and textures.</p>
+				<p>Enjoy the excitement of unboxing a surprise assortment, with detailed tasting notes to enhance your appreciation of each cheese.</p>
+				
+			</div>
+			<div class="grid-item">
+			
+			<h3>🎁 Perfect Gift:</h3>
+			<p>Treat the cheese connoisseur in your life to a memorable and delectable gift. Our Cheese of the Month Club offers a unique and thoughtful present for any occasion.</p>
+		
+			</div>
+			<!--
+			<div class="item2">
+			<img src="images/cu.jpeg">
+			</div>
+			-->
+			
+			<div class="grid-item">
+			<h3>🌐 How It Works:</h3>
+				<p>Choose your subscription plan – 1 months, 3 months, or a full year.</p>
+				<p>Await the arrival of your monthly cheese selection, carefully packaged for freshness.</p>
+				<p>Unwrap, indulge, and savor the world of artisanal cheeses in the comfort of your home.</p>
+				
+			</div>
+			<div class="grid-item">
+			<h3>💲Pricing:</h3>
+			<section id="blackboard"></section>
+			</div>	
+			
+		</div>
+			
+			
+
+			<section id=sky></section>
+			
+			<aside class = "grid-item6">
+			<p> <a class= external-link href="#" id="popup-link"><span class = "action">Become a member today</span>
+			</a> and unlock a world of cheesy delights with exclusive access to special offers and promotions.</p>
+			</aside>
+	
+               <div id="myMap" style="position:relative;width:100%;min-width:290px;height:600px;background-color:gray"></div>
+
+
+			<div id="popup-window" >
+				<div id="pop" >
+					<img src="images/ad.jpeg" class = "ads"> 
+	
+					<h1>Become A Member!</h1>
+					<p>Sign up for news and special offers. Receive emails or texts about our latest sales, new arrivals and special offers.</p>
+					
+					<section id="blackboard"></section>
+					
+					<div id = "ty">
+					<label for="fname">Start saving now!</label>
+								
+
+		            <input type="text" id="fname" name="fname"  placeholder="Email"><button id = "submit-button">Sign up</button> <br><br>
+					</div>
+					<div id = "share">
+					<p>Thank you!</p>
+					</div>
+					<button id="close-button">Close</button>
+				</div> 
+			</div> 
+			<!--sign up-->
+			
+			 <div id="slideAd"></div>
+		
+          <script src="js/jquery-1.11.0.js"></script>
+         <!-- <script src="js/position.js"></script>-->
+		  <script src="js/pop.js"></script>
+		  <script src="js/map.js"></script> 
+     		   <script>
+        // Dynamic load the Bing Maps Key and Script
+        // Get your own Bing Maps key at https://www.microsoft.com/maps
+        (async () => {
+            let script = document.createElement("script");
+            let bingKey = ("Avfy93breZ4MTMQUNrAsIAL47flsB-_B75lDd3wQxJQUzE-pj2VgH8aUmhS-XIeD")//await fetch("https://samples.azuremaps.com/api/GetBingMapsKey").then(r => r.text()).then(key => { return key });
+            script.setAttribute("src", `https://www.bing.com/api/maps/mapcontrol?callback=GetMap&key=${bingKey}`);
+            document.body.appendChild(script);
+        })();
+    </script>
+		</main>
+		 <!-- Use the footer area to add webpage footer content --> 
+		<footer>
+			<p>cheese is love<p>
+			<p id="footer"></p>
+		</footer>
+	</div>	
+</body>
+
+</html>
+
